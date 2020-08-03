@@ -1,0 +1,26 @@
+.index_cover{
+    background: url(../ref/pexels-madison-inouye-1101122.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    display: table;
+    width: 100%;
+}
+.index_cover .index_container{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;                
+}
+.index_cover ._title1{
+    margin: 0;
+    margin-top: 160px;
+    padding: 0;
+    color: black;
+}
+.index_cover ._title2{
+    margin: 0;
+    padding: 0;
+    color: black;
+}

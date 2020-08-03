@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> RESUM </title>
+        <title> PORTFOLIO </title>
         
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,10 @@
 <!--        font-awesome圖形文字-->
         <link rel="stylesheet" type="text/css" href="css/fontawesome-free-5.13.1-web/css/all.css">
         
+        <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="stylesheet" type="text/css" href="css/grid.css">
+        <link rel="stylesheet" type="text/css" href="css/nav.css">
+        <link rel="stylesheet" type="text/css" href="css/index_cover.css">
         
         <script src="js/jquery-3.5.1.min.js"></script>
         
@@ -21,109 +24,8 @@
     <body>
         <style>
             
-            #backgroundCover{
-                margin: 0;
-                width: 100%;
-                height: 600px;
-                background-image: url("ref/pexels-madison-inouye-1101122.jpg");
-                background-repeat: no-repeat;
-/*                background-size:cover;*/
-                background-position: 50% 50%;
-/*                background-attachment: fixed;*/
-                
-            }
-            .nav{                
-                height: 48px;
-                width: 100%;
-                max-width: 900px;
-                margin: 0;
-                padding: 0;
-                background-color:rgb(0,0,0,0.7);         
-                position: fixed;
-                display: table;                        
-            }
-            .nav .nav_button{
-                background: none;
-                border: none;                
-                padding: 12px;
-                float: left;                
-            }
-            .nav .nav_button > .fa-bars{
-                font-size: 24px;
-                color: whitesmoke;
-            }
             
-            .nav .nav_graphics_button{
-                background: none;
-                border: none;                
-                padding: 16px;
-                float: left;                
-            }
-            .nav .nav_graphics_button > .fa-instagram{
-                font-size: 16px;
-                color: whitesmoke;                
-            }
-            .nav .nav_graphics_button > a{
-                text-decoration: none;
-                color: white;
-            }
             
-            .nav .nav_graphics_button > a:hover{
-                color: black;
-            }
-            
-            .nav .nav_list{
-                list-style: none;
-                margin: auto;
-                padding: 0;
-                position: absolute;
-                top:48px;
-                width: 100%;
-                background-color: rgb(0,0,0,0.7);
-/*                display: none;                */
-            }
-            .nav .nav_list > .nav_item{
-                width: auto;
-                height: 48px;
-                line-height: 48px;
-                margin: auto;
-                padding: 0;                
-            }
-            .nav .nav_list > .nav_item > a{
-                text-decoration: none;
-                color: whitesmoke;
-                display: inline-block;
-                text-align: center;
-                margin: auto;
-                width: 100%;               
-            }
-            
-            .nav .nav_list > .nav_item > a:hover{
-                color: black;
-            }
-            
-            @media (max-width:992px){
-                .nav .nav_graphics_button{
-                    display: none;
-                }
-            }
-            @media (min-width:992px){    
-                .nav .nav_button{
-                    display: none;
-                }
-                .nav .nav_list{
-                    display: block;!important;
-                    position: static;
-                    top: auto;                    
-                    float: right;
-                    width: auto;
-                    background-color: transparent;
-                }
-                .nav .nav_list > .nav_item{
-                    float: left;
-                    padding: 0 16px;
-                }
-            }
         
         </style>        
         
@@ -131,7 +33,7 @@
             <div class="container">
             <nav class="nav">
                 <ul class="nav_list">
-                    <li class="nav_item"><a href="http://www.google.com">RESUM</a></li>
+                    <li class="nav_item"><a href="https://www.instagram.com/josephine_chiao/">RESUM</a></li>
                     <li class="nav_item"><a href="">WORKS</a></li>
                     <li class="nav_item"><a href="">CONTACT</a></li>
                 
@@ -140,7 +42,7 @@
                     <i class="fas fa-bars"></i>
                 </button>
                 <button type="button" class="nav_graphics_button">
-                    <a href="http://www.instagram.com/aboutcreate">
+                    <a href="https://www.instagram.com/josephine_chiao">
                     <i class="fab fa-instagram"></i>
                     </a>    
                 </button>
@@ -152,10 +54,18 @@
 <!--            首頁-->
             <section>
                 <div class="container">
-                <div id="backgroundCover">
-                    <H3 style="text-align: center; position:relative;top:300px;margin: 0; ">PORTFOLIO</H3>
-                    <p style="text-align: center;position:relative;top:300px;margin: 0;">Interior Design</p>                     
-                </div>
+                    <div class="col-phone-100">
+                        <div class="index_cover">
+                            <div class="index_container">
+                                <div>
+                                    <H3 class="_title1">PORTFOLIO</H3>
+                                </div>
+                                <div>
+                                    <p class="_title2">Interior Design</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
                 </div>    
             </section>
             
