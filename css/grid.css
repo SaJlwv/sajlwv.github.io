@@ -1,7 +1,9 @@
 .container{
     width: 100%;
-  max-width: 900px;
-  margin: auto;
+    max-width: 900px;
+    margin: auto;
+    background: url(../ref/pexels-madison-inouye-1101122.jpg);
+    background-repeat: no-repeat;
 }
 
 .row{

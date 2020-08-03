@@ -1,5 +1,15 @@
 body{      
     font-family: 'Tajawal', sans-serif,"微軟正黑體";
     background-color:lightgray;
-    margin:0;
+    margin:0;    
+}
+
+.body_baclrgound{
+    width: 100%;
+    height: 100%;
+    max-width: 900px;
+    background: url(../ref/pexels-madison-inouye-1101122.jpg);
+    background-repeat: no-repeat;    
+/*    background-size: cover;    */
+    margin: auto;
 }

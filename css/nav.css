@@ -1,92 +1,93 @@
 .nav{                
-                height: 48px;
-                width: 100%;
-                max-width: 900px;
-                margin: 0;
-                padding: 0;
-                background-color:rgb(0,0,0,0.7);         
-                position: fixed;
-                display: table;                        
-            }
-            .nav .nav_button{
-                background: none;
-                border: none;                
-                padding: 12px;
-                float: left;                
-            }
-            .nav .nav_button > .fa-bars{
-                font-size: 24px;
-                color: whitesmoke;
-            }
-            
-            .nav .nav_graphics_button{
-                background: none;
-                border: none;                
-                padding: 16px;
-                float: left;                
-            }
-            .nav .nav_graphics_button > .fa-instagram{
-                font-size: 16px;
-                color: whitesmoke;                
-            }
-            .nav .nav_graphics_button > a{
-                text-decoration: none;
-                color: white;
-            }
-            
-            .nav .nav_graphics_button > a:hover{
-                color: black;
-            }
-            
-            .nav .nav_list{
-                list-style: none;
-                margin: auto;
-                padding: 0;
-                position: absolute;
-                top:48px;
-                width: 100%;
-                background-color: rgb(0,0,0,0.7);
-                display: none;                
-            }
-            .nav .nav_list > .nav_item{
-                width: auto;
-                height: 48px;
-                line-height: 48px;
-                margin: auto;
-                padding: 0;                
-            }
-            .nav .nav_list > .nav_item > a{
-                text-decoration: none;
-                color: whitesmoke;
-                display: inline-block;
-                text-align: center;
-                margin: auto;
-                width: 100%;               
-            }
-            
-            .nav .nav_list > .nav_item > a:hover{
-                color: black;
-            }
-            
-            @media (max-width:992px){
-                .nav .nav_graphics_button{
-                    display: none !important;
-                }
-            }
-            @media (min-width:992px){    
-                .nav .nav_button{
-                    display: none;
-                }
-                .nav .nav_list{
-                    display: block !important;
-                    position: static;
-                    top: auto;                    
-                    float: right;
-                    width: auto;
-                    background-color: transparent;
-                }
-                .nav .nav_list > .nav_item{
-                    float: left;
-                    padding: 0 16px;
-                }
-            }
+    height: 48px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(0,0,0,0.7);         
+    position: fixed;
+    display: table;
+    z-index: 1111;
+}
+.nav .nav_button{
+    background: none;
+    border: none;                
+    padding: 12px;
+    float: left;                
+}
+.nav .nav_button > .fa-bars{
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.nav .nav_graphics_button{
+    background: none;
+    border: none;                
+    padding: 16px;
+    float: left;                
+}
+.nav .nav_graphics_button > .fa-instagram{
+    font-size: 16px;
+    color: whitesmoke;                
+}
+.nav .nav_graphics_button > a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav .nav_graphics_button > a:hover{
+    color: black;
+}
+
+.nav .nav_list{
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    top:48px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.7);
+    display: none;                
+}
+.nav .nav_list > .nav_item{
+    width: auto;
+    height: 48px;
+    line-height: 48px;
+    margin: auto;
+    padding: 0;                
+}
+.nav .nav_list > .nav_item > a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    width: 100%;               
+}
+
+.nav .nav_list > .nav_item > a:hover{
+    color: black;
+}
+
+@media (max-width:991px){
+    .nav .nav_graphics_button{
+        display: none !important;
+    }
+}
+@media (min-width:992px){    
+    .nav .nav_button{
+        display: none;
+    }
+    .nav .nav_list{
+        display: block !important;
+        position: static;
+        top: auto;                    
+        float: right;
+        width: auto;
+        background-color: transparent;
+    }
+    .nav .nav_list > .nav_item{
+        float: left;
+        padding: 0 16px;
+    }
+}
