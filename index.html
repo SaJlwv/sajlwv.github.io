@@ -12,36 +12,37 @@
 <!--        font-awesome圖形文字-->
         <link rel="stylesheet" type="text/css" href="css/fontawesome-free-5.13.1-web/css/all.css">
         
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/body.css">
         <link rel="stylesheet" type="text/css" href="css/grid.css">
         <link rel="stylesheet" type="text/css" href="css/nav.css">
-        <link rel="stylesheet" type="text/css" href="css/index_cover.css">
+        <link rel="stylesheet" type="text/css" href="css/main_cover.css">
+        <link rel="stylesheet" type="text/css" href="css/top_button.css">
         
         <script src="js/jquery-3.5.1.min.js"></script>
         
-    </head>   
-    
+    </head>    
+
     <body>
-        <div class="body_baclrgound">
+        <div class="body_background">
         <style>
                     
         
         </style>        
         
         <header>
-            <div class="container">
+            <div id="nav" class="container">
             <nav class="nav">
                 <ul class="nav_list">
-                    <li class="nav_item"><a href="https://www.instagram.com/josephine_chiao/">RESUM</a></li>
-                    <li class="nav_item"><a href="">WORKS</a></li>
-                    <li class="nav_item"><a href="">CONTACT</a></li>
+                    <li class="nav_item"><a href="#resum">RESUM</a></li>
+                    <li class="nav_item"><a href="#works">WORKS</a></li>
+                    <li class="nav_item"><a href="#contact">CONTACT</a></li>
                 
                 </ul>
                 <button type="button" class="nav_button">
                     <i class="fas fa-bars"></i>
                 </button>
                 <button type="button" class="nav_graphics_button">
-                    <a href="https://www.instagram.com/aboutcreate">
+                    <a href="https://www.instagram.com/aboutcreate" target="_blank">
                     <i class="fab fa-instagram"></i>
                     </a>    
                 </button>
@@ -49,14 +50,14 @@
             </div>
         </header>
         
-        <main>
+        <main >
             
 <!--            首頁-->
             <section>
                 <div class="container">
-                    <div class="col-phone-100">
-                        <div class="index_cover">
-                            <div class="index_container">
+                    <div class="col-mobile-100">
+                        <div class="main_cover">
+                            <div class="main_container">
                                 <div>
                                     <H3 class="_title1">PORTFOLIO</H3>
                                 </div>
@@ -70,128 +71,253 @@
             </section>
             
             <style>
-                .works_img{
-                    width: 100%
-                }
                 
-                .project{
+                .works{
+                } 
+                .works_project{
                     display: table;
                     width: 100%;
-                }
-                .project .projcet_type{
-                    list-style: none;
-/*                    color: whitesmoke;*/                   
+                    margin: 0;
                     text-align: center;
+                    position: relative;
                 }
-                .project .projcet_name{
+                .works_project lu{
+                    position: absolute;
+                    width: 100%;
+                    top: 75%;
+                    text-shadow: 0px 3px 1px rgb(0,0,0,0.3);
+                }
+                .works_project ._name{
                     list-style: none;
-/*                    color: whitesmoke;*/                                      
-                    text-align: center;
+                    color: white;
+                    font-size: 1.2rem;
                 }
-                .project .projcet_location{
+                .works_project ._type{
                     list-style: none;
-/*                    color: whitesmoke;*/                  
-                    text-align: center;                          
+                    color: whitesmoke;
+                    font-size: 0.75rem;
+                }                
+                .works_project ._location{
+                    list-style: none;
+                    color: whitesmoke;
+                    font-size: 0.75rem;
                 }
-                .project_btn{                    
-                    background-color: transparent;                   
-                    border: none;
-                    vertical-align: middle;
-                    text-align: center;
+                .Works_link{                
+                    text-decoration: none;
                 }
+                .works_img{
+                    width: 100%;
+                    vertical-align: bottom;
+                    padding: 0px 0;                    
+                }
+                
+                .works_project lu:hover{
+                    background-color: rgba(0,0,0,0.3);
+                    width: 100%;
+                    height: auto;
+                    background-size: 100%;
+                }
+                
             </style>
             
             
             
 <!--            作品區 works-->
-            <section>
+            <section id="works">
                 <div class="container">
                     <div class="row">
-                        <div class="col-phone-100">
-                            
-<!--
-                            <div class="action">
-                                <a href="http://google.com";>
-                                    <button class="project_btn" type="button">
-                                        <lu >
-                                            <li class="projcet_type">商空</li>
-                                            <li class="projcet_name">上海故事</li>
-                                            <li class="projcet_location">上海</li>
-                                        </lu>
-                                    </button>
-                                </a>
-                            </div>
--->
+                        <div class="col-mobile-100">
                             
                             <div class="works">
-                                <a href >
-                                    <img class="works_img" src="ref/project/1_Commercial/lJNail/04.png">
-                                </a>
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_1_01_LJNailSalon.html" >
+                                            <lu>
+                                            <li class="_name">L.J Nail Salon</li>
+                                            <li class="_type">Commercial</li>
+                                            <li class="_location">上海</li>
+                                            </lu>
+                                        </a>                                        
+                                        <img class="works_img" src="ref/project/1_Commercial/lJNail/04.png" >
+                                    </div>
+                                    
                                 
-                                <a href >
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_1_02_StoryShanghai.html" >
+                                            <lu>
+                                            <li class="_name">Story Shanghai</li>
+                                            <li class="_type">Commercial</li>
+                                            <li class="_location">上海</li>
+                                            </lu>
+                                        </a>
                                     <img class="works_img" src="ref/project/1_Commercial/StoryShanghai/02.jpg">
-                                </a>
+                                    </div>
                                 
-                                <a href >
-                                    <img class="works_img" src="ref/project/2_CommunityFacility/01_DaAnAhMan/01.jpg">
-                                </a>
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_2_01_DaAnAhMan.html" >
+                                            <lu>
+                                            <li class="_name">大安阿曼</li>
+                                            <li class="_type">Community Facility</li>
+                                            <li class="_location">台北</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/2_CommunityFacility/01_DaAnAhMan/01.jpg">
+                                    </div>
                                 
-                                <a href >
-                                    <img class="works_img" src="ref/project/2_CommunityFacility/02_JiMeiJunPin/03.jpg">
-                                </a>
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_2_02_JiMeiJunPin.html" >
+                                            <lu>
+                                            <li class="_name">吉美君品</li>
+                                            <li class="_type">Community Facility</li>
+                                            <li class="_location">新店</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/2_CommunityFacility/02_JiMeiJunPin/03.jpg">
+                                    </div>
                                 
-                                <a href >
-                                    <img class="works_img" src="ref/project/2_CommunityFacility/03_LianHongTianYao/02.jpg">
-                                </a>
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_2_03_LianHongTianYao.html" >
+                                            <lu>
+                                            <li class="_name">聯虹天耀</li>
+                                            <li class="_type">Community Facility</li>
+                                            <li class="_location">林口</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/2_CommunityFacility/03_LianHongTianYao/02.jpg">
+                                    </div>
                                 
-                                <a href >
-                                    <img class="works_img" src="ref/project/2_CommunityFacility/04_JiMeiYueHe/02.jpg">
-                                </a>
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_2_04_JiMeiYueHe.html" >
+                                            <lu>
+                                            <li class="_name">吉美樂河</li>
+                                            <li class="_type">Community Facility</li>
+                                            <li class="_location">台北</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/2_CommunityFacility/04_JiMeiYueHe/02.jpg">
+                                    </div>
                                 
-                                <a href >
-                                    <img class="works_img" src="ref/project/3_SaleCenter/01_ShiJiChangHong/0_1.jpg">
-                                </a>
-                                    
-                                <a href >
-                                    <img class="works_img" src="ref/project/4_Modelhouse/01_ShiJiChangHong/04.jpg">
-                                </a>
-                                    
-                                <a href >
-                                    <img class="works_img" src="ref/project/4_Modelhouse/SiJiTianYun/02.jpg">
-                                </a>
-                                    
-                                <a href >
-                                    <img class="works_img" src="ref/project/4_Modelhouse/DongFangZhiGuan/06.jpg">
-                                </a>
-                                    
-                                <a href >
-                                    <img class="works_img" src="ref/project/4_Modelhouse/02_DongXiHui/02.jpg">
-                                </a>
-                                    
-                                <a href >
-                                    <img class="works_img" src="ref/project/4_Modelhouse/LaoFoYe/A/02.jpg">
-                                </a>
-                                    
-                                <a href >
-                                    <img class="works_img" src="ref/project/4_Modelhouse/LaoFoYe/B/02_1.jpg">
-                                </a>
-                                    
-                                <a href >
-                                    <img class="works_img" src="ref/project/4_Modelhouse/MingRiBo/03.jpg">
-                                </a>
-                                    
-                                <a href >
-                                    <img class="works_img" src="ref/project/5_Residential/JiMeiJunPin_A-17F/04.jpg">
-                                </a>
-                                   
-                                <a href >
-                                    <img class="works_img" src="ref/project/5_Residential/DongXiHui_A1-11F/01.jpg">
-                                </a>
-                                   
-                                <a href >
-                                    <img class="works_img" src="ref/project/5_Residential/HepingSt/1_1.jpg">
-                                </a>
-                            </div>
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_3_01_ShiJiChangHong.html" >
+                                            <lu>
+                                            <li class="_name">世紀長虹</li>
+                                            <li class="_type">Sale Center</li>
+                                            <li class="_location">林口</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/3_SaleCenter/01_ShiJiChangHong/0_1.jpg">
+                                    </div>
+                                
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_4_01_ShiJiChangHong.html" >
+                                            <lu>
+                                            <li class="_name">世紀長虹</li>
+                                            <li class="_type">Model house</li>
+                                            <li class="_location">林口</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/4_Modelhouse/01_ShiJiChangHong/04.jpg">
+                                    </div>
+                                
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_4_SiJiTianYun.html" >
+                                            <lu>
+                                            <li class="_name">四季天韻</li>
+                                            <li class="_type">Model house</li>
+                                            <li class="_location">台中</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/4_Modelhouse/SiJiTianYun/02.jpg">
+                                    </div>
+                                
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_4_DongFangZhiGuan.html" >
+                                            <lu>
+                                            <li class="_name">東方之冠</li>
+                                            <li class="_type">Model house</li>
+                                            <li class="_location">台中</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/4_Modelhouse/DongFangZhiGuan/06.jpg">
+                                    </div>
+                                
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_4_02_DongXiHui.html" >
+                                            <lu>
+                                            <li class="_name">東西匯</li>
+                                            <li class="_type">Model house</li>
+                                            <li class="_location">台中</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/4_Modelhouse/02_DongXiHui/02.jpg">
+                                    </div>
+                                
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_4_LaoFoYe_A.html" >
+                                            <lu>
+                                            <li class="_name">老佛爺</li>
+                                            <li class="_type">Model house</li>
+                                            <li class="_location">台中</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/4_Modelhouse/LaoFoYe/A/02.jpg">
+                                    </div>
+                                
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_4_LaoFoYe_B.html" >
+                                            <lu>
+                                            <li class="_name">老佛爺</li>
+                                            <li class="_type">Model house</li>
+                                            <li class="_location">台中</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/4_Modelhouse/LaoFoYe/B/02_1.jpg">
+                                    </div>
+                                
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_4_MingRiBo.html" >
+                                            <lu>
+                                            <li class="_name">明日博</li>
+                                            <li class="_type">Model house</li>
+                                            <li class="_location">台北</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/4_Modelhouse/MingRiBo/03.jpg">
+                                    </div>
+                                
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_5_JiMeiJunPin_A-17F.html" >
+                                            <lu>
+                                            <li class="_name">吉美君品</li>
+                                            <li class="_type">Residential</li>
+                                            <li class="_location">新店</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/5_Residential/JiMeiJunPin_A-17F/04.jpg">
+                                    </div>
+                                
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_5_DongXiHui_A1-11F.html" >
+                                            <lu>
+                                            <li class="_name">東西匯</li>
+                                            <li class="_type">Residential</li>
+                                            <li class="_location">台北</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/5_Residential/DongXiHui_A1-11F/01.jpg">
+                                    </div>
+                                
+                                    <div class="works_project">
+                                        <a class="Works_link" href="./project_5_HepingSt.html" >
+                                            <lu>
+                                            <li class="_name">和平苑</li>
+                                            <li class="_type">Residential</li>
+                                            <li class="_location">宜蘭</li>
+                                            </lu>
+                                        </a>
+                                        <img class="works_img" src="ref/project/5_Residential/HepingSt/1_1.jpg">
+                                    </div>
+                                                                
+                                 </div>
                             
                         </div>
                     </div>
@@ -200,32 +326,77 @@
             </section>
             
 <!--            簡歷-->
-            <section>
+            <section id="resum">
                 <div class="container">
                     <div class="row">
-                        <div class="col-phone-100" style="background-color:transparent;">
+                        <div class="col-mobile-100" style="background-color:transparent;">
                         </div>
                     </div>
                 </div>
             </section>
             
 <!--            聯絡方式-->
-            <section>
+            <section id="contact">
                 <div class="container">
                     <div class="row">
-                        <div class="col-phone-100" style="background-color:transparent;">
+                        <div class="col-mobile-100" style="background-color:transparent;">
                         </div>
                     </div>
                 </div>
             </section>
         
         </main>
+            
+        <style>
+            .footer_content{
+                
+            }
+            .footer_content .footer_graphics_button{
+                background: none;
+                border: none;                
+                padding: 1rem;
+                float: left;                
+            }
+            .footer_content .footer_graphics_button .fa-instagram{
+                font-size: 1rem;
+                color: whitesmoke;                
+            }
+            .footer_content .footer_graphics_button a{
+                text-decoration: none;
+                color: white;
+            }
+
+            .footer_content .footer_graphics_button i:hover{
+                color: darkgray;
+            }
+        </style>    
         
         <footer>
-            <div class="container" style="height:48px">
-                <div class="col-phone-100" style="background-color:rgb(0,0,0,9); width: 100%; height:48px">
+            
+            <div>
+<!--            (top button)-->
+            <div Style="text-align: center">    
+                <a href="#nav">
+                    <button class="top_button" type="button">
+                    <i class="fas fa-angle-up"></i>    
+                    </button>
+                </a>
+            </div>
+            
+            <div class="container" style="height:3rem">
+                <div class="col-mobile-100" style="background-color:rgb(0,0,0,9); width: 100%; height:3rem">
+                    <div class="footer_content">
+                    
+                    <button type="button" class="footer_graphics_button">
+                    <a href="https://www.instagram.com/aboutcreate" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    </a>    
+                    </button>
+                    
+                    </div>    
                 </div>
             </div>
+            </div>    
         
         </footer>        
         
@@ -235,6 +406,8 @@
                 $(".nav_list").slideToggle(800);
             })
         })
+            
+        
         </script>
     
     </div>        

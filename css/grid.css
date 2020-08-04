@@ -1,9 +1,7 @@
 .container{
     width: 100%;
     max-width: 900px;
-    margin: auto;
-    background: url(../ref/pexels-madison-inouye-1101122.jpg);
-    background-repeat: no-repeat;
+    margin: auto;    
 }
 
 .row{
@@ -12,27 +10,27 @@
 }
 
 /* for 全部與手機 all*/
-.col-phone-100{
+.col-mobile-100{
   width: 100%;
   float: left
 }
 
-.col-phone-67{
+.col-mobile-67{
   width: 67%;
   float: left
 }
 
-.col-phone-50{
+.col-mobile-50{
   width: 50%;
   float: left
 }
 
-.col-phone-33{
+.col-mobile-33{
   width: 33%;
   float: left
 }
 
-.col-phone-25{
+.col-mobile-25{
   width: 25%;
   float: left
 }

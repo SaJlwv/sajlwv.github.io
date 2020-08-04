@@ -1,0 +1,24 @@
+html {font-size:16px;}
+
+body{      
+    font-family: 'Tajawal', sans-serif,"微軟正黑體";
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    min-height: 900px;
+    background: -webkit-linear-gradient(lightgray,dimgray);
+    background: -moz-linear-gradient(lightgray,dimgray);
+    background: -o-linear-gradient(lightgray,dimgray);
+    background: linear-gradient(lightgray,dimgray);
+    background-color:lightgray;
+    margin:0 auto;    
+}
+
+.body_background{
+    background: url(../ref/pexels-madison-inouye-1101122.jpg);
+    background-repeat: repeat-y;    
+    background-size: cover;    
+    background-attachment: fixed;
+    margin: 0 auto;
+    display: table-cell;
+}

@@ -1,0 +1,22 @@
+.main_cover{
+    background-color: transparent;
+    height: 900px;
+    width: 100%;    
+    display: table;
+}
+.main_cover .main_container{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;                
+}
+.main_cover ._title1{
+    margin: 0;
+    margin-top: 160px;
+    padding: 0;
+    color: black;
+}
+.main_cover ._title2{
+    margin-top: 8px;
+    padding: 0;
+    color: black;
+}
