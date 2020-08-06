@@ -1,0 +1,56 @@
+.works{
+} 
+.works_project{
+    display: table;
+    width: 100%;
+    margin: 1px 0;
+    text-align: center;
+    position: relative;
+}
+.works_project lu {
+    position: absolute;
+    width: 100%;
+    top: 75%;
+    text-shadow: 0px 3px 1px rgb(0,0,0,0.3);
+}
+.works_project ._name{
+    list-style: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.works_project ._type{
+    list-style: none;
+    color: whitesmoke;
+    font-size: 0.75rem;
+}                
+.works_project ._location{
+    list-style: none;
+    color: whitesmoke;
+    font-size: 0.75rem;
+}
+.Works_link{                
+    text-decoration: none;
+}
+.works_img{
+    width: 100%;
+    vertical-align: bottom;
+    padding: 0px 0;                    
+}
+
+.works_project lu:hover{
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: auto;
+    background-size: 100%;
+}
+
+@media (max-width:991px){
+    .works_project lu{
+    background-color: rgba(0,0,0,0.33);
+    width: 100%;
+    height: auto;
+    background-size: 100%;!important;
+    }
+}
+@media (min-width:992px){
+}
