@@ -20,9 +20,19 @@
   float: left
 }
 
+.col-mobile-60{
+    width: 60%;
+    float: left
+}
+
 .col-mobile-50{
   width: 50%;
   float: left
+}
+
+.col-mobile-40{
+    width: 40%;
+    float: left;
 }
 
 .col-mobile-33{
@@ -47,11 +57,21 @@
     width: 66.67%;
     float: left
   }
+    
+.col-tablet-60{
+    width: 60%;
+    float: left
+}
 
   .col-tablet-50{
     width: 50%;
     float: left
   }
+
+.col-tablet-40{
+    width: 40%;
+    float: left
+}
 
   .col-tablet-33{
     width: 33.33%;

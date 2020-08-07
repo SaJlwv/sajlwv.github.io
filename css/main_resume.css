@@ -1,0 +1,61 @@
+.resume_title{
+    height: 3rem; 
+    text-align: center;
+    background-color: rgb(0,0,0,0.2);
+    margin: 0;
+}
+.resume_title p{
+    color: whitesmoke;
+    text-shadow: 0px 3px 3px rgb(0,0,0,0.3);
+    height: 3rem;
+    line-height: 3rem;
+    margin: auto;
+}
+
+.resume_experience{
+    background-color:rgba(0,0,0,0.0);                      
+    margin: auto;
+    margin-top: 4rem;
+}
+.resume_experience table{
+    padding: 2rem;
+    padding-top: 0;
+    width:100%;
+}
+.resume_experience p{
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 2rem;
+    padding-left: 4rem;
+    font-weight:normal;
+    color: whitesmoke;
+    text-shadow: 0px 3px 3px rgb(0,0,0,0.3);
+}
+.resume_experience td{
+    font-size: 0.7rem;                    
+    font-weight: lighter;
+    color: lightgray;
+}
+
+.resume_skills_table{
+    padding-right: 4rem;
+}
+
+.resume_selfie_table{
+    padding: 2rem;
+    padding-right: 0;
+    padding-top: 0;
+    width:100%;
+    font-size: 0.7rem;                    
+    font-weight: lighter;
+    color: lightgray;
+    text-align: left;
+}
+.resume_selfie_table a{                    
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.resume_selfie_table a:hover{                    
+    color: black;
+} 
