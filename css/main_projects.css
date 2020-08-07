@@ -17,11 +17,6 @@
 /*                        text-align: center;*/
     margin: auto;
 }
-.project_list table{
-    padding: 0 2rem;
-    text-align: center;
-    width:100%;
-}
 .project_list p{
     font-size: 1rem;
     text-align: left;
@@ -31,14 +26,22 @@
     color: whitesmoke;
     text-shadow: 0px 3px 3px rgb(0,0,0,0.3);
 }
+
+.project_list table{
+    table-layout:fixed;
+    padding: 0 2rem;
+    text-align: center;
+    width:100%;
+}
 .project_list td{
     text-align: center;
-    font-size: 0.7rem;                    
+    font-size: 0.5rem;                    
     font-weight: lighter;
     height: 2rem;
     color: whitesmoke;
 }
 .project_list span{
+    text-align: center;
     display: block;
     font-size: 0.3rem;                    
     font-weight: lighter;
