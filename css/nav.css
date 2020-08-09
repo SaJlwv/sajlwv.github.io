@@ -11,9 +11,18 @@
 }
 .nav .nav_button{
     background: none;
-    border: none;                
-    padding: 0.75rem;
-    float: left;                
+    border: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    height: 3rem;
+    line-height: 3rem;
+}
+.nav .nav_button img{
+    width: 100%;
+    max-width: 1.5rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
 }
 .nav .nav_button > .fa-bars{
     font-size: 1.5rem;
@@ -23,8 +32,11 @@
 .nav .nav_graphics_button{
     background: none;
     border: none;                
-    padding: 1rem;
-    float: left;                
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 3rem;
+    line-height: 3rem;
 }
 .nav .nav_graphics_button > .fa-instagram{
     font-size: 1rem;
@@ -33,6 +45,15 @@
 .nav .nav_graphics_button > a{
     text-decoration: none;
     color: white;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.nav .nav_graphics_button img{
+    width: 100%;
+    max-width: 1.5rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
 }
 
 .nav .nav_graphics_button > a:hover{
